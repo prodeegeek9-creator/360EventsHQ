@@ -1095,6 +1095,7 @@
 
     #page-nav::-webkit-scrollbar { display: none; }
   </style>
+<script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
 </head>
 <body class="">
 
@@ -1102,7 +1103,7 @@
     <!-- browser chrome showing subdomain -->
     <div style="display:flex; align-items:center; gap:9px; padding:9px 16px; background:var(--bg-soft); border-bottom:1px solid var(--border);">
       <span style="width:10px;height:10px;border-radius:50%;background:#ff5f57;"></span><span style="width:10px;height:10px;border-radius:50%;background:#febc2e;"></span><span style="width:10px;height:10px;border-radius:50%;background:#28c840;"></span>
-      <div style="flex:1; max-width:360px; margin:0 auto; text-align:center; padding:6px 14px; border-radius:9px; background:var(--bg-card); border:1px solid var(--border); font-size:12px; color:var(--text-soft); font-family:'Poppins',sans-serif;">🔒 davidandsarah.360eventshq.com</div>
+      <div style="flex:1; max-width:360px; margin:0 auto; text-align:center; padding:6px 14px; border-radius:9px; background:var(--bg-card); border:1px solid var(--border); font-size:12px; color:var(--text-soft); font-family:'Poppins',sans-serif;"><i data-lucide="lock" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i> davidandsarah.360eventshq.com</div>
     </div>
 
     <!-- hero -->
@@ -1211,7 +1212,7 @@
 
     <footer style="text-align:center; padding:40px; background:var(--bg-card);">
       <div style="font-family:'Poppins',sans-serif; font-weight:700; font-size:22px;">David &amp; Sarah</div>
-      <div style="font-size:13px; color:var(--text-mut); margin-top:8px;">Made with ♡ on 360EventsHQ</div>
+      <div style="font-size:13px; color:var(--text-mut); margin-top:8px;">Made with <i data-lucide="heart" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i> on 360EventsHQ</div>
     </footer>
   </div>
   </sc-if>
@@ -1220,5 +1221,7 @@
   <sc-if value="false" hint-placeholder-val="">
   
 </div>
+
+<script>document.addEventListener('DOMContentLoaded',()=>lucide.createIcons());</script>
 </body>
 </html>
