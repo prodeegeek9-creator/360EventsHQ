@@ -1095,6 +1095,7 @@
 
     #page-nav::-webkit-scrollbar { display: none; }
   </style>
+<script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
 </head>
 <body class="">
 
@@ -1121,7 +1122,7 @@
         </div>
         <div style="display:flex; gap:10px; padding-bottom:6px;">
           <button style="padding:11px 16px; border-radius:11px; border:1px solid var(--border); background:var(--bg-card); color:var(--text); font-weight:600; font-size:13.5px; cursor:pointer;">↗ Share</button>
-          <button style="padding:11px 16px; border-radius:11px; border:1px solid var(--border); background:var(--bg-card); color:var(--text); font-weight:600; font-size:13.5px; cursor:pointer;">♡ Save</button>
+          <button style="padding:11px 16px; border-radius:11px; border:1px solid var(--border); background:var(--bg-card); color:var(--text); font-weight:600; font-size:13.5px; cursor:pointer;"><i data-lucide="heart" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i> Save</button>
           <button style="padding:11px 22px; border-radius:11px; border:none; background:var(--orange); color:#fff; font-weight:600; font-size:13.5px; cursor:pointer; box-shadow:0 10px 22px -10px rgba(255,107,0,.6);">Book Vendor</button>
         </div>
       </div>
@@ -1150,13 +1151,13 @@
           <p style="font-size:15px; line-height:1.65; color:var(--text-soft); margin:0 0 18px;">We capture your precious moments and turn them into timeless memories. With over a decade of experience, we specialise in weddings, corporate events, birthdays and conferences across Nigeria and beyond.</p>
           <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-bottom:36px;">
             
-              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;">🏆 10+ Years Experience</div>
+              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;"><i data-lucide="trophy" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i> 10+ Years Experience</div>
             
-              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;">📸 200+ Events Completed</div>
+              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;"><i data-lucide="camera" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i> 200+ Events Completed</div>
             
-              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;">👥 Professional Team</div>
+              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;"><i data-lucide="users" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i> Professional Team</div>
             
-              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;">✨ High-end Equipment</div>
+              <div style="display:flex; align-items:center; gap:10px; padding:13px 15px; border-radius:12px; background:var(--bg-soft); border:1px solid var(--border); font-size:13.5px; font-weight:500;"><i data-lucide="sparkles" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i> High-end Equipment</div>
             
           </div>
 
@@ -1236,5 +1237,7 @@
   <sc-if value="false" hint-placeholder-val="">
   
 </div>
+
+<script>document.addEventListener('DOMContentLoaded',()=>lucide.createIcons());</script>
 </body>
 </html>

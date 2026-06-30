@@ -1095,6 +1095,7 @@
 
     #page-nav::-webkit-scrollbar { display: none; }
   </style>
+<script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
 </head>
 <body class="">
 
@@ -1164,19 +1165,19 @@
       <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:22px;">
         
           <div style="padding:26px; border-radius:16px; border:1px solid var(--border); background:var(--bg-card); box-shadow:var(--shadow-sm); transition:transform .25s;" style-hover="transform:translateY(-6px);">
-            <div style="width:46px; height:46px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px; background:var(--bg-soft);">🧱</div>
+            <div style="width:46px; height:46px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px; background:var(--bg-soft);"><i data-lucide="layout-grid" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i></div>
             <h3 style="font-family:'Poppins',sans-serif; font-weight:600; font-size:18px; margin:0 0 8px;">Drag &amp; Drop Builder</h3>
             <p style="font-size:14px; color:var(--text-soft); line-height:1.55; margin:0;">Build pages visually with snap-to-grid sections and live editing — no code, ever.</p>
           </div>
         
           <div style="padding:26px; border-radius:16px; border:1px solid var(--border); background:var(--bg-card); box-shadow:var(--shadow-sm); transition:transform .25s;" style-hover="transform:translateY(-6px);">
-            <div style="width:46px; height:46px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px; background:var(--bg-soft);">🎨</div>
+            <div style="width:46px; height:46px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px; background:var(--bg-soft);"><i data-lucide="palette" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i></div>
             <h3 style="font-family:'Poppins',sans-serif; font-weight:600; font-size:18px; margin:0 0 8px;">Template Library</h3>
             <p style="font-size:14px; color:var(--text-soft); line-height:1.55; margin:0;">Start from polished templates for weddings, corporate events, birthdays and conferences.</p>
           </div>
         
           <div style="padding:26px; border-radius:16px; border:1px solid var(--border); background:var(--bg-card); box-shadow:var(--shadow-sm); transition:transform .25s;" style-hover="transform:translateY(-6px);">
-            <div style="width:46px; height:46px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px; background:var(--bg-soft);">🌐</div>
+            <div style="width:46px; height:46px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px; background:var(--bg-soft);"><i data-lucide="globe" style="width:18px;height:18px;stroke-width:2;vertical-align:middle;flex-shrink:0;"></i></div>
             <h3 style="font-family:'Poppins',sans-serif; font-weight:600; font-size:18px; margin:0 0 8px;">Branded Subdomains</h3>
             <p style="font-size:14px; color:var(--text-soft); line-height:1.55; margin:0;">Publish to johnwedding.360eventshq.com or connect your own custom domain.</p>
           </div>
@@ -1190,5 +1191,7 @@
   <sc-if value="false" hint-placeholder-val="">
   
 </div>
+
+<script>document.addEventListener('DOMContentLoaded',()=>lucide.createIcons());</script>
 </body>
 </html>
