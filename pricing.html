@@ -1101,12 +1101,12 @@
 <div>
 
     <nav style="position:sticky; top:49px; z-index:60; display:flex; align-items:center; gap:30px; padding:16px 44px; background:var(--glass); backdrop-filter:blur(16px); border-bottom:1px solid var(--border);">
-      <div onclick="" style="display:flex; align-items:center; gap:9px; font-family:'Poppins',sans-serif; font-weight:800; font-size:21px; cursor:pointer;">
+      <a href="index.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:9px;">
         <span style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:10px; background:linear-gradient(135deg,var(--orange),#ff9244); color:#fff; font-size:15px;">360</span>
         events<span style="color:var(--orange);">HQ</span>
       </div>
       <div style="flex:1;"></div>
-      <span style="font-size:14.5px; font-weight:600; cursor:pointer;">Login</span>
+      <a href="dashboard.html" style="font-size:14.5px; font-weight:600; cursor:pointer; text-decoration:none; color:inherit;">Login</a>
       <button style="padding:11px 20px; border-radius:12px; border:none; background:var(--orange); color:#fff; font-weight:600; font-size:14.5px; cursor:pointer;" onclick="location.href='dashboard.html'">Start Free Trial</button>
     </nav>
 
@@ -1123,55 +1123,65 @@
       </div>
 
       <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:22px; align-items:start;">
-        
-          <div style="position:relative; padding:28px 24px; border-radius:16px; background:var(--bg-card); border:1px solid var(--border); box-shadow:var(--shadow-sm); ">
-            
-            <div style="font-family:'Poppins',sans-serif; font-weight:600; font-size:19px;">Starter</div>
-            <div style="font-size:13.5px; color:var(--text-mut); margin-bottom:18px;">For Vendors</div>
-            <div style="display:flex; align-items:flex-end; gap:5px; margin-bottom:4px;"><span style="font-family:'Poppins',sans-serif; font-weight:700; font-size:38px;">₦8k</span><span style="font-size:14px; color:var(--text-mut); margin-bottom:7px;">/mo</span></div>
-            <div style="font-size:12.5px; color:var(--text-mut); margin-bottom:20px;">billed monthly</div>
-            <button style="width:100%; padding:13px; border-radius:11px; font-weight:600; font-size:14px; cursor:pointer; border:1px solid var(--border); background:transparent; color:var(--text);" onclick="location.href='dashboard.html'">Start Free Trial</button>
-            <div style="border-top:1px solid var(--border); margin:20px 0; padding-top:18px; display:flex; flex-direction:column; gap:11px;">
-              <sc-for list="Vendor marketplace listing,Up to 20 portfolio photos,3 booking packages,In-app messaging,Standard support" as="ft" hint-placeholder-count="5">
-                <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> </div>
-              
-          <div style="position:relative; padding:30px 24px; border-radius:16px; background:var(--bg-card); border:2px solid var(--orange); box-shadow:var(--shadow); transform:scale(1.03);">
-            
-              <span style="position:absolute; top:-12px; left:50%; transform:translateX(-50%); font-size:11px; font-weight:700; padding:5px 14px; border-radius:999px; background:var(--orange); color:#fff;">MOST POPULAR</span>
-            
-            <div style="font-family:'Poppins',sans-serif; font-weight:600; font-size:19px;">Professional</div>
-            <div style="font-size:13.5px; color:var(--text-mut); margin-bottom:18px;">For Event Planners</div>
-            <div style="display:flex; align-items:flex-end; gap:5px; margin-bottom:4px;"><span style="font-family:'Poppins',sans-serif; font-weight:700; font-size:38px;">₦24k</span><span style="font-size:14px; color:var(--text-mut); margin-bottom:7px;">/mo</span></div>
-            <div style="font-size:12.5px; color:var(--text-mut); margin-bottom:20px;">billed monthly</div>
-            <button style="width:100%; padding:13px; border-radius:11px; font-weight:600; font-size:14px; cursor:pointer; border:none; background:var(--orange); color:#fff;" onclick="location.href='dashboard.html'">Start Free Trial</button>
-            <div style="border-top:1px solid var(--border); margin:20px 0; padding-top:18px; display:flex; flex-direction:column; gap:11px;">
-              <sc-for list="Everything in Starter,Unlimited event websites,Branded subdomain,Drag &amp; drop builder,RSVP &amp; guest management,Payments &amp; escrow,Priority support" as="ft" hint-placeholder-count="5">
-                <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> </div>
-              
-          <div style="position:relative; padding:28px 24px; border-radius:16px; background:var(--bg-card); border:1px solid var(--border); box-shadow:var(--shadow-sm); ">
-            
-            <div style="font-family:'Poppins',sans-serif; font-weight:600; font-size:19px;">Enterprise</div>
-            <div style="font-size:13.5px; color:var(--text-mut); margin-bottom:18px;">For Large Agencies</div>
-            <div style="display:flex; align-items:flex-end; gap:5px; margin-bottom:4px;"><span style="font-family:'Poppins',sans-serif; font-weight:700; font-size:38px;">Custom</span><span style="font-size:14px; color:var(--text-mut); margin-bottom:7px;"></span></div>
-            <div style="font-size:12.5px; color:var(--text-mut); margin-bottom:20px;">Tailored to your agency</div>
-            <button style="width:100%; padding:13px; border-radius:11px; font-weight:600; font-size:14px; cursor:pointer; border:1px solid var(--border); background:transparent; color:var(--text);" onclick="window.location='mailto:hello@360eventshq.com'">Contact Sales</button>
-            <div style="border-top:1px solid var(--border); margin:20px 0; padding-top:18px; display:flex; flex-direction:column; gap:11px;">
-              <sc-for list="Everything in Professional,Custom domain &amp; white-label,Team seats &amp; roles,Advanced analytics,API access,Dedicated manager" as="ft" hint-placeholder-count="5">
-                <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> </div>
-              
-            </div>
-          </div>
-        </sc-for>
-      </div>
 
-      <div style="text-align:center; margin-top:40px; font-size:14px; color:var(--text-mut);">All plans include a 14-day free trial · No credit card required · Secure escrow payments</div>
+<div style="position:relative; padding:28px 24px; border-radius:16px; background:var(--bg-card); border:1px solid var(--border); box-shadow:var(--shadow-sm); ">
+  
+  <div style="font-family:'Poppins',sans-serif; font-weight:600; font-size:19px;">Starter</div>
+  <div style="font-size:13.5px; color:var(--text-mut); margin-bottom:18px;">For Vendors</div>
+  <div style="display:flex; align-items:flex-end; gap:5px; margin-bottom:4px;"><span style="font-family:'Poppins',sans-serif; font-weight:700; font-size:38px;">₦8k</span><span style="font-size:14px; color:var(--text-mut); margin-bottom:7px;">/mo</span></div>
+  <div style="font-size:12.5px; color:var(--text-mut); margin-bottom:20px;">billed monthly</div>
+  <button onclick="location.href='dashboard.html'" style="width:100%; padding:13px; border-radius:11px; font-weight:600; font-size:14px; cursor:pointer; border:1px solid var(--border); background:transparent; color:var(--text);">Start Free Trial</button>
+  <div style="border-top:1px solid var(--border); margin:20px 0; padding-top:18px; display:flex; flex-direction:column; gap:11px;">
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Vendor marketplace listing</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Up to 20 portfolio photos</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> 3 booking packages</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> In-app messaging</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Standard support</div>
+  </div>
+</div>
+
+<div style="position:relative; padding:30px 24px; border-radius:16px; background:var(--bg-card); border:2px solid var(--orange); box-shadow:var(--shadow); transform:scale(1.03);">
+  <span style="position:absolute; top:-12px; left:50%; transform:translateX(-50%); font-size:11px; font-weight:700; padding:5px 14px; border-radius:999px; background:var(--orange); color:#fff;">MOST POPULAR</span>
+  <div style="font-family:'Poppins',sans-serif; font-weight:600; font-size:19px;">Professional</div>
+  <div style="font-size:13.5px; color:var(--text-mut); margin-bottom:18px;">For Event Planners</div>
+  <div style="display:flex; align-items:flex-end; gap:5px; margin-bottom:4px;"><span style="font-family:'Poppins',sans-serif; font-weight:700; font-size:38px;">₦24k</span><span style="font-size:14px; color:var(--text-mut); margin-bottom:7px;">/mo</span></div>
+  <div style="font-size:12.5px; color:var(--text-mut); margin-bottom:20px;">billed monthly</div>
+  <button onclick="location.href='dashboard.html'" style="width:100%; padding:13px; border-radius:11px; font-weight:600; font-size:14px; cursor:pointer; border:none; background:var(--orange); color:#fff;">Start Free Trial</button>
+  <div style="border-top:1px solid var(--border); margin:20px 0; padding-top:18px; display:flex; flex-direction:column; gap:11px;">
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Everything in Starter</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Unlimited event websites</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Branded subdomain</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Drag & drop builder</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> RSVP & guest management</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Payments & escrow</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Priority support</div>
+  </div>
+</div>
+
+<div style="position:relative; padding:28px 24px; border-radius:16px; background:var(--bg-card); border:1px solid var(--border); box-shadow:var(--shadow-sm); ">
+  
+  <div style="font-family:'Poppins',sans-serif; font-weight:600; font-size:19px;">Enterprise</div>
+  <div style="font-size:13.5px; color:var(--text-mut); margin-bottom:18px;">For Large Agencies</div>
+  <div style="display:flex; align-items:flex-end; gap:5px; margin-bottom:4px;"><span style="font-family:'Poppins',sans-serif; font-weight:700; font-size:38px;">Custom</span><span style="font-size:14px; color:var(--text-mut); margin-bottom:7px;"></span></div>
+  <div style="font-size:12.5px; color:var(--text-mut); margin-bottom:20px;">Tailored to your agency</div>
+  <button onclick="location.href='mailto:hello@360eventshq.com'" style="width:100%; padding:13px; border-radius:11px; font-weight:600; font-size:14px; cursor:pointer; border:1px solid var(--border); background:transparent; color:var(--text);">Contact Sales</button>
+  <div style="border-top:1px solid var(--border); margin:20px 0; padding-top:18px; display:flex; flex-direction:column; gap:11px;">
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Everything in Professional</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Custom domain & white-label</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Team seats & roles</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Advanced analytics</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> API access</div>
+    <div style="display:flex; align-items:flex-start; gap:9px; font-size:13.5px; color:var(--text-soft);"><span style="color:#22c55e; flex-shrink:0;">✔</span> Dedicated manager</div>
+  </div>
+</div>
+</div>
+
+<div style="text-align:center; margin-top:40px; font-size:14px; color:var(--text-mut);">All plans include a 14-day free trial · No credit card required · Secure escrow payments</div>
     </div>
   </div>
-  </sc-if>
+  
 
   <!-- ===== MOBILE ===== -->
-  <sc-if value="false" hint-placeholder-val="">
-  
-</div>
+  </div>
 </body>
 </html>
